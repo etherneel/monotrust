@@ -43,8 +43,8 @@ const noScrollbarStyles = `
 
 // === CONFIG ===
 const BASE_URL = "https://monoapi.triblocktechnology.com";
-const USDT_ADDRESS = "0x5C2Db6D26D5A86392777368bFED9A8f1afC87A4F";
-const PRESALE_CONTRACT = "0xCa156378340ee858B21DA4017E0aDF75f1531EBb";
+const USDT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955";
+const PRESALE_CONTRACT = "0x01006E55da7cBfB69E282276b7B9278f70DBc583";
 
 interface InvestmentTier {
   name: string;

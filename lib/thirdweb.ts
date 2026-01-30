@@ -24,21 +24,21 @@ export const wallets = [
 
 // Chain configuration - Only BSC Testnet
 export const supportedChains = [
-  {
-    id: 97,
-    name: "BSC Testnet",
-    symbol: "tBNB",
-    icon: "🟡",
-    chain: bscTestnet,
-  },
   // {
-  //   id: 56,
-  //   name: "BSC Mainnet",
-  //   symbol: "BNB",
+  //   id: 97,
+  //   name: "BSC Testnet",
+  //   symbol: "tBNB",
   //   icon: "🟡",
-  //   chain: bsc,
+  //   chain: bscTestnet,
   // },
+  {
+    id: 56,
+    name: "BSC Mainnet",
+    symbol: "BNB",
+    icon: "🟡",
+    chain: bsc,
+  },
 ]
 
 // Export the chain for easy access
-export const defaultChain = bscTestnet
+export const defaultChain = bsc

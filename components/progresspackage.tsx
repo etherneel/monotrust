@@ -7,7 +7,7 @@ import { bscTestnet } from 'thirdweb/chains'
 import { TrendingUp, Zap, Target } from 'lucide-react'
 
 const PACKAGES = [5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 20000, 50000, 100000]
-const CONTRACT_ADDRESS = '0xCa156378340ee858B21DA4017E0aDF75f1531EBb'
+const CONTRACT_ADDRESS = '0x01006E55da7cBfB69E282276b7B9278f70DBc583'
 
 const packageIcons: Record<number, JSX.Element> = {
   5: <TrendingUp className="w-3 h-3" />,
