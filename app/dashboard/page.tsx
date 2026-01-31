@@ -845,7 +845,7 @@ const totalClaimedSum = totalDirectClaimed + additionalClaimed;
                 ) : isApproved ? (
                   "✓ USDT Approved"
                 ) : (
-                  "Register"
+                  "Approve USDT"
                 )}
               </Button>
 
