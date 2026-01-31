@@ -3,7 +3,7 @@
 import { useActiveAccount, useReadContract } from 'thirdweb/react'
 import { getContract } from 'thirdweb'
 import { client } from '@/lib/thirdweb'
-import { bscTestnet } from 'thirdweb/chains'
+import { bsc } from 'thirdweb/chains'
 import { TrendingUp, Zap, Target } from 'lucide-react'
 
 const PACKAGES = [5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000, 20000, 50000, 100000]
@@ -28,7 +28,7 @@ const packageIcons: Record<number, JSX.Element> = {
 
 const mainContract = getContract({
   client,
-  chain: bscTestnet,
+  chain: bsc,
   address: CONTRACT_ADDRESS,
 })
 
